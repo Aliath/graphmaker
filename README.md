@@ -17,7 +17,7 @@ edges := []graphmaker.Edge{
 
 nodeIdentifiers := []string{"A", "B", "C", "D"}
 
-result, _ := BuildGraph(edges, nodeIdentifiers)
+result, _ := graphmaker.BuildGraph(edges, nodeIdentifiers)
 
 fmt.Println(result) // [{0 0 A} {5 0 B} {5.000000000000001 -5 C} {7.105427357601002e-16 -5.000000000000001 D}]
 ```
